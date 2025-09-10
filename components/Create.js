@@ -15,7 +15,7 @@ function Create() {
         let a = name,
             b = age;
         if (name == "" || age == "") {
-            alert("This is invalid input");
+            alert("Enter the Given Fields!");
             return;
         }
         array.push({ id: uni, Name: a, Age: b });
@@ -47,3 +47,4 @@ function Create() {
 
 
 export default Create;
+
