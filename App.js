@@ -13,7 +13,6 @@ function App() {
     return (
         <div className="App">
             <h1 className="geeks"><b>CRUD APPLICATION</b></h1>
-            <p><b>Here About 'CRUD' Application</b></p>
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -27,4 +26,5 @@ function App() {
 
 
 export default App;
+
 
