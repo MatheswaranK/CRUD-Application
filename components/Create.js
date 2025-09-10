@@ -8,7 +8,7 @@ function Create() {
     const [name, setname] = useState("");
     const [age, setage] = useState("");
     let history = useNavigate();
-    const handelSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault(); 
         const ids = uuid(); 
         let uni = ids.slice(0, 8);
@@ -44,5 +44,6 @@ function Create() {
         </div>
     );
 }
+
 
 export default Create;
